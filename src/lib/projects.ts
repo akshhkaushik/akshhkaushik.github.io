@@ -20,6 +20,40 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: "01",
+    name: "Aksh Outreach",
+    description:
+      "A review-first outreach assistant that researches companies, matches relevant portfolio evidence, drafts personalized Gmail messages, and records observed opens.",
+    status: "Open source",
+    tags: ["Next.js", "Gmail API", "AI", "Redis"],
+    links: [
+      { label: "Source", href: "https://github.com/akshhkaushik/EmailAutomator" },
+    ],
+  },
+  {
+    id: "02",
+    name: "Transcript Registry",
+    description:
+      "A free, agent-readable public library of timestamped YouTube transcripts, with captions-first ingestion, local Whisper contributions, and reusable text and JSON endpoints.",
+    status: "Live",
+    tags: ["Next.js", "Open data", "Whisper", "Agents"],
+    links: [
+      { label: "Live", href: "https://transcript-registry.vercel.app/" },
+      { label: "Source", href: "https://github.com/akshhkaushik/transcript-registry" },
+    ],
+  },
+  {
+    id: "03",
+    name: "Transcript Commons",
+    description:
+      "The local-compute companion to Transcript Registry: it discovers videos, prefers existing captions, runs permissioned Whisper transcription, and publishes reusable records.",
+    status: "Open source",
+    tags: ["Python", "Whisper", "YouTube", "Local compute"],
+    links: [
+      { label: "Source", href: "https://github.com/akshhkaushik/transcript-commons" },
+    ],
+  },
+  {
+    id: "04",
     name: "CEO Voice",
     description:
       "An evidence-backed executive communication system that models measured voice patterns, keeps structure independent, and makes generation and revision traceable.",
@@ -31,7 +65,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "02",
+    id: "05",
     name: "Veritas",
     description:
       "An evidence intelligence platform that reconstructs how public claims emerge and spread, then separates support, contradiction, and uncertainty with cited sources.",
@@ -43,7 +77,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "03",
+    id: "06",
     name: "GLOB",
     description:
       "A living spatial globe that turns photographs into memories you can revisit by place, time, and emotion.",
@@ -52,7 +86,7 @@ export const projects: Project[] = [
     links: [{ label: "Live", href: "https://glob.akshh.workers.dev/" }],
   },
   {
-    id: "04",
+    id: "07",
     name: "EvoComb",
     description:
       "A transparent Environmental Stress Index for Delhi NCR, combining noise, crowding, heat, and air quality.",
@@ -61,7 +95,7 @@ export const projects: Project[] = [
     links: [{ label: "Live", href: "https://evo-comb-web.vercel.app/" }],
   },
   {
-    id: "05",
+    id: "08",
     name: "VAYU",
     description:
       "Satellite-derived surface AQI and HCHO hotspot detection over India, with an honest spatial-validation pipeline.",
@@ -72,7 +106,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "06",
+    id: "09",
     name: "Fraud detection pipeline",
     description:
       "A graph-attention and Transformer pipeline for transaction risk, exposed through an API and browser extension.",
@@ -86,7 +120,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "07",
+    id: "10",
     name: "Mifos AI Suite",
     description:
       "AI-assisted digitisation, report generation, and legacy-data migration tooling for the Mifos X ecosystem.",
@@ -97,7 +131,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "08",
+    id: "11",
     name: "Wifly",
     description:
       "A Rust systems project focused on fast, memory-safe tooling and learning closer to the metal.",
@@ -106,7 +140,7 @@ export const projects: Project[] = [
     links: [{ label: "Source", href: "https://github.com/akshhkaushik/Wifly" }],
   },
   {
-    id: "09",
+    id: "12",
     name: "Derivative risk management",
     description:
       "Quantitative analysis of futures pricing, margin simulation, and sensitivity for Indian equities.",
@@ -115,7 +149,7 @@ export const projects: Project[] = [
     links: [{ label: "Source", href: "https://github.com/akshhkaushik/DRM_Project" }],
   },
   {
-    id: "10",
+    id: "13",
     name: "BITS network keepalive",
     description:
       "A small, resilient authentication helper that keeps campus network sessions alive with observable logging.",
