@@ -5,7 +5,7 @@
 export const profile = {
   name: "Aksh Kaushik",
   available: true,
-  email: "aksh.heisenberg@gmail.com",
+  email: "akshhkaushik@gmail.com",
   github: "https://github.com/akshhkaushik",
   githubHandle: "akshhkaushik",
 };
@@ -20,8 +20,8 @@ export const nav = [
 export const hero = {
   eyebrow: "Aksh Kaushik",
   // Big headline; SplitText reveals it line by line. Renders as plain text without JS.
-  headline: "I'm Aksh. I build things.",
-  sub: "Then I take them apart to see how they work. Mostly ML systems and agents.",
+  headline: "I build AI products that work in the real world.",
+  sub: "Agents, backend systems, evidence infrastructure, and focused product experiments—designed, shipped, and evaluated end to end.",
 };
 
 export const work = {
@@ -71,9 +71,9 @@ export const blog = {
 };
 
 export const about = {
-  lead: "I build things, take them apart to see how they work, and try to learn something new every day.",
-  body: "I’d rather ship something small and real than talk about something big and vague. Always happy to learn from people who know more than me.",
-  focus: ["Agents & LLMs", "Applied ML", "Systems & data"],
+  lead: "I’m a BITS Pilani student who likes turning ambiguous problems into working software.",
+  body: "My recent work spans multi-agent systems, evidence and provenance tooling, retrieval and evaluation, workflow automation, and data-heavy products. I care about clear interfaces, reliable backends, and proving ideas with a focused prototype.",
+  focus: ["Agents & LLMs", "Backend systems", "Evidence & data"],
 };
 
 export const contact = {

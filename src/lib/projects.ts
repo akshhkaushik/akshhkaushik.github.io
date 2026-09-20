@@ -20,6 +20,18 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: "01",
+    name: "Linkrunner Onboarding Lab",
+    description:
+      "An end-to-end proof of work for Linkrunner: a working onboarding product, integration thesis, and implementation plan built to demonstrate product and engineering judgment.",
+    status: "Live",
+    tags: ["Next.js", "TypeScript", "Product engineering", "APIs"],
+    links: [
+      { label: "Live", href: "https://linkrunner-onboarding-lab-aksh.rurradvisors.chatgpt.site" },
+      { label: "Source", href: "https://github.com/akshhkaushik/linkrunner-onboarding-lab" },
+    ],
+  },
+  {
+    id: "02",
     name: "Aksh Outreach",
     description:
       "A review-first outreach assistant that researches companies, matches relevant portfolio evidence, drafts personalized Gmail messages, and records observed opens.",
@@ -30,7 +42,16 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "02",
+    id: "03",
+    name: "Sift Class Notes",
+    description:
+      "A privacy-first English and Hindi class-recording workflow that turns lectures into structured, searchable notes while keeping consent and data handling explicit.",
+    status: "Live",
+    tags: ["Next.js", "TypeScript", "Speech", "Privacy"],
+    links: [{ label: "Live", href: "https://sift-class-notes.vercel.app" }],
+  },
+  {
+    id: "04",
     name: "Transcript Registry",
     description:
       "A free, agent-readable public library of timestamped YouTube transcripts, with captions-first ingestion, local Whisper contributions, and reusable text and JSON endpoints.",
@@ -42,7 +63,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "03",
+    id: "05",
     name: "Transcript Commons",
     description:
       "The local-compute companion to Transcript Registry: it discovers videos, prefers existing captions, runs permissioned Whisper transcription, and publishes reusable records.",
@@ -53,7 +74,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "04",
+    id: "06",
     name: "CEO Voice",
     description:
       "An evidence-backed executive communication system that models measured voice patterns, keeps structure independent, and makes generation and revision traceable.",
@@ -65,7 +86,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "05",
+    id: "07",
     name: "Veritas",
     description:
       "An evidence intelligence platform that reconstructs how public claims emerge and spread, then separates support, contradiction, and uncertainty with cited sources.",
@@ -77,7 +98,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "06",
+    id: "08",
     name: "GLOB",
     description:
       "A living spatial globe that turns photographs into memories you can revisit by place, time, and emotion.",
@@ -86,7 +107,7 @@ export const projects: Project[] = [
     links: [{ label: "Live", href: "https://glob.akshh.workers.dev/" }],
   },
   {
-    id: "07",
+    id: "09",
     name: "EvoComb",
     description:
       "A transparent Environmental Stress Index for Delhi NCR, combining noise, crowding, heat, and air quality.",
@@ -95,7 +116,7 @@ export const projects: Project[] = [
     links: [{ label: "Live", href: "https://evo-comb-web.vercel.app/" }],
   },
   {
-    id: "08",
+    id: "10",
     name: "VAYU",
     description:
       "Satellite-derived surface AQI and HCHO hotspot detection over India, with an honest spatial-validation pipeline.",
@@ -106,7 +127,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "09",
+    id: "11",
     name: "Fraud detection pipeline",
     description:
       "A graph-attention and Transformer pipeline for transaction risk, exposed through an API and browser extension.",
@@ -120,7 +141,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: "10",
+    id: "12",
     name: "Mifos AI Suite",
     description:
       "AI-assisted digitisation, report generation, and legacy-data migration tooling for the Mifos X ecosystem.",
@@ -129,24 +150,6 @@ export const projects: Project[] = [
     links: [
       { label: "Source", href: "https://github.com/akshhkaushik/Mifos-Ai-Suite" },
     ],
-  },
-  {
-    id: "11",
-    name: "Wifly",
-    description:
-      "A Rust systems project focused on fast, memory-safe tooling and learning closer to the metal.",
-    status: "Open source",
-    tags: ["Rust", "Systems", "Networking"],
-    links: [{ label: "Source", href: "https://github.com/akshhkaushik/Wifly" }],
-  },
-  {
-    id: "12",
-    name: "Derivative risk management",
-    description:
-      "Quantitative analysis of futures pricing, margin simulation, and sensitivity for Indian equities.",
-    status: "Complete",
-    tags: ["Python", "Quant finance", "Jupyter"],
-    links: [{ label: "Source", href: "https://github.com/akshhkaushik/DRM_Project" }],
   },
   {
     id: "13",
